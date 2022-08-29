@@ -82,13 +82,23 @@ header {
 }
 
 .button--primary {
-    padding: 1.8rem 2.4rem;
+    color: #FFFFFF;
     background-color: #FF4D01;
+    border: 2px solid #FF4D01;
 }
 
 .button--secondary {
-    padding: 1.7rem 2.3rem;
-    border: 1px solid #FFFFFF;
+    color: #191919;
+    background: transparent;
+    border: 2px solid #191919;
+}
+
+.button--md {
+    padding: 1.6rem 2.2rem;
+}
+
+.button--lg {
+    padding: 2.1rem 3.4rem 2.6rem;
 }
 
 .hero {
@@ -104,6 +114,11 @@ header {
 .hero p {
     max-width: 64rem;
     margin: 0 auto 3.5rem;
+}
+
+.hero .button--secondary {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
 }
 
 .hero .button:first-of-type {
@@ -168,12 +183,6 @@ header {
     max-width: 16rem;
 }
 
-.content .button--secondary {
-    border: 2px solid #191919;
-    border-radius: 0px;
-    padding: 2.5rem 3.8rem 2.6rem 3.7rem;
-}
-
 .services {
     display: flex;
     flex-direction: column;
@@ -184,7 +193,6 @@ header {
     display: flex;
     max-width: 43rem;
     justify-content: flex-start;
-    margin-bottom: 6.4rem;
 }
 
 .services .section-name {
@@ -202,16 +210,6 @@ header {
 
 .services .headings {
     margin-right: auto;
-}
-
-.services .button--primary {
-    padding: 2.5rem 3.8rem 3rem;
-}
-
-.services .button--secondary {
-    border: 2px solid #191919;
-    border-radius: 0;
-    padding: 2.4rem 3.7rem 2.7rem 3.8rem;
 }
 
 .services-items {
@@ -279,16 +277,7 @@ header {
 }
 
 .cta .button--primary {
-    display: inline-block;
-    color: #FFFFFF;
     margin-right: 2.8rem;
-    padding: 2.8rem 3.8rem 3rem;
-}
-
-.cta .button--secondary {
-    display: inline-block;
-    outline: 2px solid #191919;
-    padding: 2.8rem 4rem;
 }
 
 .why-us {
