@@ -206,6 +206,7 @@ header {
     gap: 3rem;
     align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 6.4rem;
 }
 
 .services .headings {
