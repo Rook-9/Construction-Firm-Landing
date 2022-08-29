@@ -382,3 +382,108 @@ header {
 .pros-item::before {
     content: url(images/galochka.png);
 }
+
+.projects {
+    display: flex;
+    padding: 12rem 14.6rem 15rem;
+    flex-direction: column;
+}
+
+.projects .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+
+.projects .headings {
+    margin-right: auto;
+}
+
+.projects .wrapper h2 {
+    padding-bottom: 1.5rem;
+}
+
+.projects .wrapper h3 {
+    max-width: 62rem;
+    margin-right: auto;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    width: 112%;
+}
+
+.slider-list {
+    display: flex;
+    gap: 6.4rem;
+    margin-bottom: 6.6rem;
+}
+
+.slider-list-item {
+    flex: 1 0 545px;
+    flex-direction: column;
+    justify-content: left;
+    background-size: 54.5rem 61.1rem;
+    background-repeat: no-repeat;
+    padding: 30.3rem 3rem 3.6rem;
+}
+
+.slider-list-item h4 {
+    max-width: 36rem;
+    font-size: 3.4rem;
+    color: #FFFFFF;
+    margin-bottom: 1.6rem;
+}
+
+.slider-list-item p {
+    color: #EAEAEB;
+    margin-bottom: 4.2rem;
+}
+
+.slider-list-item .line {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #989899;
+    margin-bottom: 3.2rem;
+}
+
+.slider-list-item a {
+    font-size: 1.8rem;
+    color: #EAEAEB;
+}
+
+#slider-1 {
+    background-image: url(images/slider1.png);
+}
+
+#slider-2 {
+    background-image: url(images/slider2.png);
+}
+
+#slider-3 {
+    background-image: url(images/slider1.png);
+}
+
+
+.slider-buttons {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.slider .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.9rem;
+}
+
+.slider .button svg {
+    max-width: 3rem;
+    max-height: 3rem;
+}
