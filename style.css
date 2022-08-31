@@ -508,6 +508,18 @@ header {
     max-width: 55rem;
 }
 
+.testimonials .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem;
+}
+
+.testimonials .button svg {
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
 .client-slider {
     display: flex;
     flex-direction: column;
@@ -548,4 +560,61 @@ header {
 .client-slider-list-item .client-name {
     margin: 3rem 0 0.6rem;
     color: #191919;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 14.6rem;
+}
+
+.blog .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6.6rem;
+}
+
+.blog .news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 2.4rem;
+    row-gap: 3.2rem;
+}
+
+.blog .news-item-main {
+    grid-row: span 3;
+    text-align: left;
+}
+
+.news-item-main h4 {
+    font-size: 3.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.blog .news-item {
+    display: flex;
+}
+
+.blog .news-item .news-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.4rem;
+    gap: 2rem;
+}
+
+.news-item h4 {
+    font-size: 2.8rem;
+    max-width: 30rem;
+}
+
+.news p {
+    font-size: 1.8rem;
+    color: #605E5D;
+}
+
+.news-item-main img {
+    margin-bottom: 2.6rem;
 }
