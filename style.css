@@ -488,3 +488,64 @@ header {
     max-width: 3rem;
     max-height: 3rem;
 }
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 14.6rem 15rem;
+}
+
+.testimonials .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.6rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.testimonials .wrapper .headings h3 {
+    max-width: 55rem;
+}
+
+.client-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 125%;
+}
+
+.client-slider-list {
+    display: flex;
+    gap: 10.6rem;
+}
+
+.client-slider-list-item {
+    flex: 1 0 50%;
+    display: flex;
+    justify-content: left;
+    gap: 3.8rem;
+}
+
+.client-slider-list-item .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+
+
+.client-slider p {
+    max-width: 36rem;
+    color: #989899;
+}
+
+.client-slider h4 {
+    font-size: 2.8rem;
+    margin-bottom: 1.3rem;
+}
+
+.client-slider-list-item .client-name {
+    margin: 3rem 0 0.6rem;
+    color: #191919;
+}
