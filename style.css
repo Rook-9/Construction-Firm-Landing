@@ -25,6 +25,12 @@ a {
     font-size: 1.8rem;
 }
 
+a:hover,
+a:active,
+a:focus {
+    text-decoration: underline;
+}
+
 h2 {
     font-size: 7.2rem;
     color: #FFFFFF;
@@ -79,6 +85,16 @@ header {
 .button {
     display: inline-block;
     font-size: 1.8rem;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
 }
 
 .button--primary {
