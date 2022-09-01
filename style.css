@@ -634,3 +634,133 @@ header {
 .news-item-main img {
     margin-bottom: 2.6rem;
 }
+
+footer {
+    background-color: #000000;
+    color: #EAEAEB;
+    display: flex;
+    flex-direction: column;
+    padding: 14.6rem 14.6rem 3.6rem;
+}
+
+footer .wrapper {
+    display: flex;
+}
+
+footer .wrapper-top {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 7rem;
+}
+
+footer .wrapper-top p {
+    color: #EAEAEB;
+    margin-top: 6rem;
+    max-width: 17.6rem;
+    margin-bottom: 4.2rem;
+}
+
+footer .button svg {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+footer .wrapper-top .button {
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 26rem;
+}
+
+.footer-menu-wrapper h4 {
+    font-size: 2.2rem;
+    margin-bottom: 3.8rem;
+}
+
+.footer-menu-item {
+    font-size: 1.8rem;
+    margin-bottom: 1.7rem;
+    margin-right: 2.8rem;
+}
+
+.footer-utility-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18rem;
+}
+
+.footer-utility-wrapper h4 {
+    font-size: 2.2rem;
+    margin-bottom: 3.8rem;
+}
+
+.footer-utility {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.footer-utility-item {
+    display: flex;
+    font-size: 1.8rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 6rem;
+}
+
+.contact h4 {
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+}
+
+.contact img {
+    max-width: 4.8rem;
+    max-height: 4.8rem;
+}
+
+.contact-call {
+    display: flex;
+    padding: 3rem 6rem 3rem 2.6rem;
+    gap: 1.6rem;
+    align-items: center;
+    border: 2px solid #FF4D01;
+    outline: self;
+    margin-bottom: 1.8rem;
+}
+
+.contact-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.contact-email {
+    display: flex;
+    padding: 3rem 6rem 3rem 2.6rem;
+    gap: 1.6rem;
+    align-items: center;
+    border: 2px solid #FF4D01;
+    outline: self;
+}
+
+.footer-floor {
+    display: flex;
+    padding-top: 13rem;
+    justify-content: space-between;
+}
